@@ -22,7 +22,7 @@ def chat(query):
     global chatStr
     print(chatStr)
     openai.api_key = apikey
-    chatStr += f"Ayan: {query}\n Jarvis:"
+    chatStr += f"Ayush: {query}\n Jarvis:"
 
     response = client.chat.completions.create(
         messages=[
